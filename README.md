@@ -2,7 +2,7 @@
 
 [![Typing header](./typing-header.svg)](./typing-header.svg)
 
-| [![Portrait](./portrait.svg)](./portrait.svg) | [![About, stack & links](./info-card.svg)](./info-card.svg) |
+| [![Portrait](./portrait.gif)](./portrait.gif) | [![About, stack & links](./info-card.svg)](./info-card.svg) |
 |---|---|
 
 [![GitHub](https://img.shields.io/badge/GitHub-code--by--adi7-0d1215?style=for-the-badge&logo=github&logoColor=white)](https://github.com/code-by-adi7)
