@@ -141,11 +141,11 @@ def build_frame(avatar_clean, glitch_level):
     # terminal block
     draw.rounded_rectangle((28, 272, 352, 392), radius=6, fill=TERMINAL_BG, outline=(31, 42, 46))
     lines = [
-        ("$ whoami", ACCENT),
+        ("$ who_am_i", ACCENT),
         ("BCA student - building things", TEXT_MAIN),
         ("across web, systems & data", TEXT_MAIN),
         ("$ status", ACCENT),
-        ("learning in public, one repo at a time", TEXT_MAIN),
+        ("creating things you know : )", TEXT_MAIN),
     ]
     y = 296
     for text, color in lines:
