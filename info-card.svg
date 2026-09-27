@@ -1,0 +1,77 @@
+<svg viewBox="0 0 620 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12181c"/>
+      <stop offset="100%" stop-color="#0a0e11"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="620" height="420" rx="10" fill="url(#bgGrad2)" stroke="#1f2a2e" stroke-width="1"/>
+
+  <!-- tab bar -->
+  <rect x="0" y="0" width="620" height="34" rx="10" fill="#101619"/>
+  <rect x="0" y="24" width="620" height="10" fill="#101619"/>
+  <circle cx="18" cy="17" r="5" fill="#e0605a"/>
+  <circle cx="36" cy="17" r="5" fill="#e0b95a"/>
+  <circle cx="54" cy="17" r="5" fill="#5fbf6f"/>
+  <text x="80" y="21" font-family="'JetBrains Mono', monospace" font-size="11" fill="#5c6b70">about.md</text>
+
+  <!-- Bio section -->
+  <text x="28" y="66" font-family="'JetBrains Mono', monospace" font-size="13" fill="#5fb3a3" font-weight="700"># about</text>
+  <text x="28" y="90" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" fill="#e8ece9">BCA student who likes turning ideas into working</text>
+  <text x="28" y="110" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" fill="#e8ece9">code — from web apps to backend logic to the</text>
+  <text x="28" y="130" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" fill="#e8ece9">occasional systems-level rabbit hole. Currently</text>
+  <text x="28" y="150" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" fill="#e8ece9">focused on getting fluent across the stack.</text>
+
+  <!-- divider -->
+  <line x1="28" y1="172" x2="592" y2="172" stroke="#1f2a2e" stroke-width="1"/>
+
+  <!-- Stack section -->
+  <text x="28" y="198" font-family="'JetBrains Mono', monospace" font-size="13" fill="#5fb3a3" font-weight="700"># stack</text>
+
+  <!-- language chips, wrapped rows -->
+  <g font-family="'JetBrains Mono', monospace" font-size="12" fill="#c9d1d3">
+    <!-- row 1 -->
+    <rect x="28" y="212" width="46" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="51" y="228" text-anchor="middle">C</text>
+    <rect x="80" y="212" width="54" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="107" y="228" text-anchor="middle">C++</text>
+    <rect x="140" y="212" width="54" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="167" y="228" text-anchor="middle">C#</text>
+    <rect x="200" y="212" width="66" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="233" y="228" text-anchor="middle">Python</text>
+    <rect x="272" y="212" width="58" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="301" y="228" text-anchor="middle">Java</text>
+    <rect x="336" y="212" width="98" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="385" y="228" text-anchor="middle">JavaScript</text>
+    <rect x="440" y="212" width="98" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="489" y="228" text-anchor="middle">TypeScript</text>
+
+    <!-- row 2 -->
+    <rect x="28" y="244" width="60" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="58" y="260" text-anchor="middle">HTML</text>
+    <rect x="94" y="244" width="54" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="121" y="260" text-anchor="middle">CSS</text>
+    <rect x="154" y="244" width="66" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="187" y="260" text-anchor="middle">React</text>
+    <rect x="226" y="244" width="54" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="253" y="260" text-anchor="middle">SQL</text>
+    <rect x="286" y="244" width="70" height="24" rx="5" fill="#16201f" stroke="#2a3a37"/>
+    <text x="321" y="260" text-anchor="middle">PL/SQL</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="28" y1="284" x2="592" y2="284" stroke="#1f2a2e" stroke-width="1"/>
+
+  <!-- Links section -->
+  <text x="28" y="310" font-family="'JetBrains Mono', monospace" font-size="13" fill="#5fb3a3" font-weight="700"># links</text>
+
+  <text x="28" y="336" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">email</text>
+  <text x="120" y="336" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c9d1d3">adicazz7@gmail.com</text>
+
+  <text x="28" y="360" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">linkedin</text>
+  <text x="120" y="360" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c9d1d3">/in/adithya-adi7</text>
+
+  <text x="28" y="384" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">github</text>
+  <text x="120" y="384" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c9d1d3">@code-by-adi7</text>
+</svg>

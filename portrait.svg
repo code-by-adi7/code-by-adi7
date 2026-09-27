@@ -1,0 +1,88 @@
+<svg viewBox="0 0 380 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12181c"/>
+      <stop offset="100%" stop-color="#0a0e11"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5fb3a3"/>
+      <stop offset="100%" stop-color="#3d7d72"/>
+    </linearGradient>
+    <clipPath id="avatarClip">
+      <circle cx="190" cy="140" r="56"/>
+    </clipPath>
+  </defs>
+
+  <rect x="0" y="0" width="380" height="420" rx="10" fill="url(#bgGrad)" stroke="#1f2a2e" stroke-width="1"/>
+
+  <!-- tab bar -->
+  <rect x="0" y="0" width="380" height="34" rx="10" fill="#101619"/>
+  <rect x="0" y="24" width="380" height="10" fill="#101619"/>
+  <circle cx="18" cy="17" r="5" fill="#e0605a"/>
+  <circle cx="36" cy="17" r="5" fill="#e0b95a"/>
+  <circle cx="54" cy="17" r="5" fill="#5fbf6f"/>
+  <text x="190" y="21" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" fill="#5c6b70">whoami.sh</text>
+
+  <!-- avatar ring -->
+  <circle cx="190" cy="140" r="66" fill="none" stroke="url(#ring)" stroke-width="3"/>
+
+  <!-- glitching avatar, clipped to circle -->
+  <g clip-path="url(#avatarClip)">
+    <rect x="134" y="84" width="112" height="112" fill="#1a2226"/>
+
+    <!-- base letter A, mostly visible -->
+    <g id="baseGlyph">
+      <text x="190" y="158" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-weight="700" font-size="46" fill="#5fb3a3">
+        <animate attributeName="opacity" values="1;1;0.2;1;1;1;0.3;1;1" keyTimes="0;0.55;0.58;0.61;0.75;0.90;0.93;0.96;1" dur="6s" repeatCount="indefinite"/>
+        A
+      </text>
+    </g>
+
+    <!-- red channel glitch offset -->
+    <text x="187" y="158" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-weight="700" font-size="46" fill="#e05f5f" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.7;0;0;0;0.6;0;0" keyTimes="0;0.55;0.58;0.61;0.75;0.90;0.93;0.96;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="187;187;182;187;187;187;195;187;187" keyTimes="0;0.55;0.58;0.61;0.75;0.90;0.93;0.96;1" dur="6s" repeatCount="indefinite"/>
+      A
+    </text>
+
+    <!-- cyan channel glitch offset -->
+    <text x="193" y="158" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-weight="700" font-size="46" fill="#5fc9e0" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.7;0;0;0;0.6;0;0" keyTimes="0;0.55;0.58;0.61;0.75;0.90;0.93;0.96;1" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x" values="193;193;199;193;193;193;184;193;193" keyTimes="0;0.55;0.58;0.61;0.75;0.90;0.93;0.96;1" dur="6s" repeatCount="indefinite"/>
+      A
+    </text>
+
+    <!-- pixel block glitch slices -->
+    <g fill="#5fb3a3">
+      <rect x="140" y="108" width="100" height="6" opacity="0">
+        <animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.565;0.58;0.60;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="140;140;150;134;140" keyTimes="0;0.565;0.58;0.60;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="140" y="140" width="100" height="4" opacity="0">
+        <animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.905;0.92;0.94;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="140;140;128;146;140" keyTimes="0;0.905;0.92;0.94;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="140" y="164" width="100" height="5" opacity="0">
+        <animate attributeName="opacity" values="0;0;0.7;0;0" keyTimes="0;0.60;0.615;0.63;1" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="140;140;146;136;140" keyTimes="0;0.60;0.615;0.63;1" dur="6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- scanline flicker overlay -->
+    <rect x="134" y="84" width="112" height="112" fill="#5fb3a3" opacity="0">
+      <animate attributeName="opacity" values="0;0;0.06;0;0;0;0.05;0;0" keyTimes="0;0.55;0.58;0.61;0.75;0.90;0.93;0.96;1" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- code-y decoration under avatar -->
+  <text x="190" y="228" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="14" fill="#e8ece9" font-weight="600">Adithya</text>
+  <text x="190" y="250" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">@code-by-adi7</text>
+
+  <!-- terminal block -->
+  <rect x="28" y="272" width="324" height="120" rx="6" fill="#0d1215" stroke="#1f2a2e" stroke-width="1"/>
+  <text x="46" y="298" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5fb3a3">$ <tspan fill="#c9d1d3">whoami</tspan></text>
+  <text x="46" y="320" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c9d1d3">BCA student · building things</text>
+  <text x="46" y="340" font-family="'JetBrains Mono', monospace" font-size="12" fill="#c9d1d3">across web, systems &amp; data</text>
+  <text x="46" y="366" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5fb3a3">$ <tspan fill="#c9d1d3">status</tspan></text>
+  <text x="46" y="386" font-family="'JetBrains Mono', monospace" font-size="12" fill="#e8ece9">learning in public, one repo at a time</text>
+</svg>

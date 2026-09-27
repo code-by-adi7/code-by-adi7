@@ -1,0 +1,6 @@
+<svg viewBox="0 0 780 160" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="780" height="160" rx="14" fill="#1a1229" stroke="#0d0815" stroke-width="2"/>
+  <rect x="10" y="8" width="760" height="20" rx="4" fill="#ff9f1c"/>
+  <text x="390" y="22" text-anchor="middle" font-family="monospace" font-size="10" fill="#1a1229" font-weight="700">CONTRIB-INVADERS</text>
+  <text x="390" y="90" text-anchor="middle" font-family="monospace" font-size="13" fill="#5fdcc0">arcade heatmap loads once the Action runs</text>
+</svg>
