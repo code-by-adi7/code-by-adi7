@@ -1,4 +1,29 @@
-<svg viewBox="0 0 620 100" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="620" height="100" rx="10" fill="#0a0e11" stroke="#1f2a2e"/>
-  <text x="20" y="55" font-family="'JetBrains Mono', monospace" font-size="13" fill="#5c6b70">language breakdown generates once the Action runs</text>
+<svg viewBox="0 0 620 242" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="620" height="242" rx="10" fill="#0a0e11" stroke="#1f2a2e"/>
+  <text x="20" y="26" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5fb3a3" font-weight="700"># top languages</text>
+  
+    <text x="20" y="61" font-family="'JetBrains Mono', monospace" font-size="13" fill="#c9d1d3">TypeScript</text>
+    <rect x="180" y="49" width="340" height="14" rx="4" fill="#161b1e"/>
+    <rect x="180" y="49" width="203.8" height="14" rx="4" fill="#5fb3a3"/>
+    <text x="534" y="61" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">60.0%</text>
+    <text x="20" y="91" font-family="'JetBrains Mono', monospace" font-size="13" fill="#c9d1d3">HTML</text>
+    <rect x="180" y="79" width="340" height="14" rx="4" fill="#161b1e"/>
+    <rect x="180" y="79" width="64.0" height="14" rx="4" fill="#4ea592"/>
+    <text x="534" y="91" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">18.8%</text>
+    <text x="20" y="121" font-family="'JetBrains Mono', monospace" font-size="13" fill="#c9d1d3">CSS</text>
+    <rect x="180" y="109" width="340" height="14" rx="4" fill="#161b1e"/>
+    <rect x="180" y="109" width="45.4" height="14" rx="4" fill="#377b6f"/>
+    <text x="534" y="121" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">13.3%</text>
+    <text x="20" y="151" font-family="'JetBrains Mono', monospace" font-size="13" fill="#c9d1d3">JavaScript</text>
+    <rect x="180" y="139" width="340" height="14" rx="4" fill="#161b1e"/>
+    <rect x="180" y="139" width="11.8" height="14" rx="4" fill="#5fdcc0"/>
+    <text x="534" y="151" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">3.5%</text>
+    <text x="20" y="181" font-family="'JetBrains Mono', monospace" font-size="13" fill="#c9d1d3">PLpgSQL</text>
+    <rect x="180" y="169" width="340" height="14" rx="4" fill="#161b1e"/>
+    <rect x="180" y="169" width="8.3" height="14" rx="4" fill="#8fd6c7"/>
+    <text x="534" y="181" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">2.5%</text>
+    <text x="20" y="211" font-family="'JetBrains Mono', monospace" font-size="13" fill="#c9d1d3">Python</text>
+    <rect x="180" y="199" width="340" height="14" rx="4" fill="#161b1e"/>
+    <rect x="180" y="199" width="6.6" height="14" rx="4" fill="#2a5750"/>
+    <text x="534" y="211" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">1.9%</text>
 </svg>
