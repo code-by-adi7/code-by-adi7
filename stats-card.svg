@@ -12,7 +12,7 @@
     <text x="165" y="90" font-family="'JetBrains Mono', monospace" font-size="30" font-weight="700" fill="#5fb3a3">5</text>
     <text x="165" y="115" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">Stars</text>
     <line x1="145" y1="55" x2="145" y2="120" stroke="#1f2a2e" stroke-width="1"/>
-    <text x="310" y="90" font-family="'JetBrains Mono', monospace" font-size="30" font-weight="700" fill="#5fb3a3">167</text>
+    <text x="310" y="90" font-family="'JetBrains Mono', monospace" font-size="30" font-weight="700" fill="#5fb3a3">170</text>
     <text x="310" y="115" font-family="'JetBrains Mono', monospace" font-size="12" fill="#5c6b70">Commits (last yr)</text>
     <line x1="290" y1="55" x2="290" y2="120" stroke="#1f2a2e" stroke-width="1"/>
     <text x="455" y="90" font-family="'JetBrains Mono', monospace" font-size="30" font-weight="700" fill="#5fb3a3">5</text>
